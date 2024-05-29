@@ -1,0 +1,27 @@
+.carousel-item img 
+{
+    object-fit: cover;
+    object-position: center;
+    height: 20hv;
+    overflow: hidden;
+}
+.carousel-item:before
+{
+    content:"";
+    background-image: linear-gradient(
+        to bottom,
+        transparent, rgba(0,0,0,0.5)
+    );
+    display:block;
+    position: absolute;
+    width:100vw;
+    height:100vh;
+}
+.card-deck 
+{
+    padding:8% 8%;
+}
+body  
+{
+    background-color:#F8E8EE;
+}
